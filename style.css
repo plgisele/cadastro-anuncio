@@ -84,4 +84,27 @@ input {
     right: 2%;
 }
 
+.title-rlt {
+    position: absolute;
+    right: 3%;
+    top: 25%;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 2px 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+#relatorio-anuncio {
+    position: absolute;
+    top: 30%;
+    right: 3%;
+    height: 310px;
+    width: 800px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
 
