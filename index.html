@@ -26,8 +26,16 @@
         <label for="investimentoDia">Investimento por dia:</label><br/>
         <input type="number" step="any" name="investimentoDia" id="investimentoDia" placeholder="R$ 0"><br/>
 
-        <input type="submit" value="SALVAR" id="button" onclick="cadastroAnuncio()">
+        <input type="submit" value="SALVAR" id="btn-salvar" onclick="cadastroAnuncio()">
     </form>
+
+    <div id="filtro">
+        <div id="busca">
+            <input type="text" name="busca" id="txtBusca" placeholder="Pesquisar anúncios"><br/>
+            <input type="submit" value="BUSCAR" id="btn-pesquisar" onclick="pesquisarDados()">
+        </div>
+
+    </div>
 
     <script src="script.js"></script>
 </body>
