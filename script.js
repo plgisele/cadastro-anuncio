@@ -40,10 +40,10 @@ function cadastroAnuncio() {
             nome: anuncio.value,
             cliente: cliente.value,
             investimentoDia: investimentoDia.value,
-            valorTotal: vTotalInvestido,
-            VisuMax: maxVisual,
-            cliqueMax: maxClique,
-            compMax: maxComp
+            valorTotal: vTotalInvestido.toFixed(2),
+            VisuMax: maxVisual.toFixed(2),
+            cliqueMax: maxClique.toFixed(2),
+            compMax: maxComp.toFixed(2)
         }
 
         dados.push(salvarDados);
