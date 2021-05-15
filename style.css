@@ -13,6 +13,7 @@ html {
 body {
     background-color: #13a8a1;
     font-family: 'Calibri', sans-serif;
+    display: flex;
 }
 
 h1 {
@@ -20,6 +21,12 @@ h1 {
     color: #fff;
     padding: 20px;
     text-transform: uppercase;
+}
+
+form {
+    flex-direction: column;
+    margin-top: 135px;
+    margin-left: -280px;
 }
 
 label {
