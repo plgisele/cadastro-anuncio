@@ -12,21 +12,21 @@
     <h1>Cadastro de<br/> anúncios</h1>
     <form>
         <label for="anuncio">Nome do anúncio:</label><br/>
-        <input type="text" id="anuncio"><br/>
+        <input type="text" name="anuncio" id="anuncio"><br/>
 
         <label for="cliente">Cliente:</label><br/>
-        <input type="text" id="cliente"><br/>
+        <input type="text" name="cliente" id="cliente"><br/>
 
         <label for="dataInicio">Data de início:</label><br/>
-        <input type="date" id="dataInicio"><br/>
+        <input type="date" name="dataInicio" id="dataInicio"><br/>
 
         <label for="dataTermino">Data de término:</label><br/>
-        <input type="date" id="dataTermino"><br/>
+        <input type="date" name="dataTermino" id="dataTermino"><br/>
 
         <label for="investimentoDia">Investimento por dia:</label><br/>
-        <input type="number" id="investimentoDia" placeholder="R$ 0"><br/>
+        <input type="number" step="any" name="investimentoDia" id="investimentoDia" placeholder="R$ 0"><br/>
 
-        <input type="button" value="SALVAR" id="button">
+        <input type="submit" value="SALVAR" id="button">
     </form>
 
     <script src="script.js"></script>
