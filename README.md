@@ -24,4 +24,5 @@ O sistema fornecerá os relatórios de cada anúncio, contendo:
 ## Orientações
 
 Acesse o site do cadastro de anúncios e preencha todo o formulário de acordo com as orientações da página. Após o preenchimento, clique em **SALVAR**. Uma mensagem aparecerá para avisar que o envio foi realizado com sucesso.
+
 Para buscar uma informação e mostrar o relatório de determinado anúncio, procure pelo nome do **cliente** na barra de pesquisa e clique em **BUSCAR**. O relatório do anúncio relativo ao cliente aparecerá na tela.
