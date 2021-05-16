@@ -61,3 +61,14 @@ function cadastroAnuncio() {
         maxComp = "";
     }
 }
+
+let textoBusca = "";
+
+function pesquisarDados() {
+    textoBusca = document.getElementById("txtBusca").value;
+    let cliente = salvarDados.indexOf("txtBusca");
+
+    if(localStorage.getItem("dadosAnuncio") == textoBusca) {
+        document.getElementById("relatorioAnuncio").innerHTML = JSON.parse(localStorage.getItem("dadosAnuncio"));
+    }
+}
